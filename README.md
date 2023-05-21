@@ -1,2 +1,4 @@
 # TBO
 The Target-Based Offensive Language Identification (TBO) dataset.
+
+TBO contains post-level annotations regarding the harmfulness of an offensive post and token-level annotations comprising of the target and the offensive argument expression. Popular offensive language identification datasets for social media focus on annotation taxonomies only at the post level and more recently, some datasets have been released that feature only token-level annotations. TBO is an important resource that bridges the gap between post-level and token-level annotation datasets by introducing a single comprehensive unified annotation taxonomy. We use the TBO taxonomy to annotate post-level and token-level offensive language on Twitter posts (tweets) in English. We release an initial dataset of over 4,500 instances collected from Twitter and we carry out multiple experiments to compare the performance of different models trained and tested on TBO.
